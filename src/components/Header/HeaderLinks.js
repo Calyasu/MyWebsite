@@ -22,54 +22,6 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-           About Me
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-           Portfolio
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-           Contact
-        </Button>
-      </ListItem>
-      
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow me on Facebook"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
           title="Follow me on LinkedIn"
@@ -78,7 +30,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://www.linkedin.com/in/calvin-vo-a544a6191/"
             target="_blank"
             className={classes.navLink}
           >
@@ -95,7 +47,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://github.com/Calyasu"
             target="_blank"
             className={classes.navLink}
           >
