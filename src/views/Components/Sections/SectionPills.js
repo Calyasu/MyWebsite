@@ -8,6 +8,8 @@ import Schedule from "@material-ui/icons/Schedule";
 import Info from "@material-ui/icons/AccountBox";
 import List from "@material-ui/icons/List";
 import image1 from "assets/img/Logo.png";
+import image2 from "assets/img/Corner.JPG";
+import image3 from "assets/img/Castform.JPG";
 import SectionCarousel from "./SectionCarousel";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -26,7 +28,7 @@ export default function SectionPills() {
       <div className={classes.container}>
         <div id="navigation-pills">
           <div className={classes.title}>
-            <h3>Portfolio</h3>
+            <h1>Portfolio</h1>
           </div>
 
           <GridContainer>
@@ -75,18 +77,17 @@ export default function SectionPills() {
                               tabContent: (
 
                                 <div>
-                                  <img src={image1} alt="First slide" />
                                   <p>
-                                    Collaboratively administrate empowered markets via
-                                    plug-and-play networks. Dynamically procrastinate B2C
-                                    users after installed base benefits.
-                                    </p>
+                                  <img src={image1} alt="First slide"  />
+                                  </p>
                                   <br></br>
                                   <p>
                                     Collaboratively administrate empowered markets via
                                     plug-and-play networks. Dynamically procrastinate B2C
                                     users after installed base benefits.
                                     </p>
+                                  <br></br>
+                                  <h4>Link to Website: https://bit.ly/2PjU2gf</h4>
                                 </div>
                               )
                             },
@@ -94,6 +95,10 @@ export default function SectionPills() {
                               tabButton: "Corner Entry",
                               tabContent: (
                                 <span>
+                                  <p>
+                                  <img src={image2} alt="First slide"  />
+                                  </p>
+                                  <br></br>
                                   <p>
                                     Efficiently unleash cross-media information without
                                     cross-media value. Quickly maximize timely
@@ -114,6 +119,10 @@ export default function SectionPills() {
                               tabButton: "Castform",
                               tabContent: (
                                 <span>
+                                  <p>
+                                  <img src={image3} alt="First slide"  />
+                                  </p>
+                                  <br></br>
                                   <p>
                                     Efficiently unleash cross-media information without
                                     cross-media value. Quickly maximize timely
